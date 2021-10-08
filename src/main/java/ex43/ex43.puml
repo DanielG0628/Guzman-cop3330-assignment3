@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class Website{
+
+    websiteName
+
+    htmlName
+
+    jScriptName
+
+    cssName
+
+}
+
+abstract class Main
+
+Main <|-- Website
+
+@enduml
